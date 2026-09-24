@@ -1,5 +1,7 @@
 # Scilab MCP Server
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
+
 Exposes a persistent Scilab console as MCP tools: `execute`, `run_file`,
 `get_variable`, `reset`, `status`. Variables and state persist across calls,
 like FreeCAD's server keeps a document open between calls.
